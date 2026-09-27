@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineStream - Component Library</title>
+    <link rel="stylesheet" href="css/task2.css">
+</head>
+<body>
+    <div class="library-container">
+        <nav class="navbar">
+            <div class="logo">🎬 OODCINEMA </div>
+            <ul class="nav-links">
+                <li><a href="task2.html" class="active">Home</a></li>
+                <li><a href="task3.html">Movies</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">New Releases</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="btn btn-outline">Sign In</button>
+                <button class="btn btn-primary">Subscribe</button>
+            </div>
+        </nav>
+
+        <section class="component-section">
+            <h2 class="section-title">Popular Movies</h2>
+            <div class="cards-row">
+                <article class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">The Odyssey</h3>
+                        <p class="card-desc">Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. </p>
+                        <button class="btn btn-card">Watch Now</button>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Spider-Man: BRAND NEW DAY</h3>
+                        <p class="card-desc">It's a BRAND NEW DAY for Peter Parker. Fighting crime full-time as Spider-Man in a world that doesn’t remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter he may not have the power to control.</p>
+                        <button class="btn btn-card">Watch Now</button>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">The Witcher</h3>
+                        <p class="card-desc">An exciting action-packed thriller</p>
+                        <button class="btn btn-card">Watch Now</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="component-section">
+            <h2 class="section-title">Browse Catalog</h2>
+            <div class="pagination-bar">
+                <button class="page-arrow">&larr;</button>
+                <div class="page-numbers">
+                    <span class="active">1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>...</span>
+                    <span>12</span>
+                </div>
+                <button class="page-arrow">&rarr;</button>
+                <span class="results-count">Showing 1-12 of 145 results</span>
+            </div>
+        </section>
+
+        <section class="component-section">
+            <h2 class="section-title">User Reviews</h2>
+            <div class="comment-block">
+                <img src="media/AVA.jpg" alt="Avatar" class="avatar">
+                <div class="comment-content">
+                    <div class="comment-header">
+                        <strong>Neytiri</strong>
+                        <span class="comment-date">2 hours ago</span>
+                    </div>
+                    <p class="comment-text">Absolutely amazing movie! The visual effects are top-notch, and the acting makes you care about the characters from the very first minute. I definitely need to watch it again to catch all the details I missed. Highly recommended for all sci-fi fans!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="component-section">
+            <h2 class="section-title">Choose Your Plan</h2>
+            <div class="pricing-table">
+                <div class="price-card">
+                    <h3>Basic</h3>
+                    <div class="price">$4.99<span>/mo</span></div>
+                    <ul class="features">
+                        <li>HD Quality</li>
+                        <li>1 Device</li>
+                        <li>With Ads</li>
+                    </ul>
+                    <button class="btn btn-outline full-width">Select Plan</button>
+                </div>
+
+                <div class="price-card recommended">
+                    <div class="badge">Recommended</div>
+                    <h3>Standard</h3>
+                    <div class="price">$9.99<span>/mo</span></div>
+                    <ul class="features">
+                        <li>Full HD</li>
+                        <li>2 Devices</li>
+                        <li>No Ads</li>
+                        <li>Download</li>
+                    </ul>
+                    <button class="btn btn-primary full-width">Select Plan</button>
+                </div>
+
+                <div class="price-card">
+                    <h3>Premium</h3>
+                    <div class="price">$14.99<span>/mo</span></div>
+                    <ul class="features">
+                        <li>4K + HDR</li>
+                        <li>4 Devices</li>
+                        <li>No Ads</li>
+                        <li>Dolby Atmos</li>
+                    </ul>
+                    <button class="btn btn-outline full-width">Select Plan</button>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
